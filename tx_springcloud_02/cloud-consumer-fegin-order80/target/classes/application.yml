@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
+ribbon:
+  #读取时间
+  ReadTimeout:  5000
+  #连接时间
+  ConnectTimeout: 5000
+
