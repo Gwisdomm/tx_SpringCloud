@@ -21,6 +21,7 @@
         <module>cloud-consumer-fegin-order80</module>
         <module>cloud-provider-hystrix-payment8001</module>
         <module>cloud-csdn-tool</module>
+        <module>cloud-jpa-crud</module>
     </modules>
 
     <packaging>pom</packaging>

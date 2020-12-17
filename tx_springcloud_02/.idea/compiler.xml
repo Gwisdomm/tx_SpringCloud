@@ -16,6 +16,7 @@
         <module name="cloud-consumer-fegin-order80" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-jpa-crud" />
         <module name="cloud-csdn-tool" />
       </profile>
     </annotationProcessing>

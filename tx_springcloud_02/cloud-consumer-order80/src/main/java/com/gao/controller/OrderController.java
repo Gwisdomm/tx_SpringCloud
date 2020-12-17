@@ -21,8 +21,6 @@ import javax.annotation.Resource;
 @RequestMapping("/order")
 public class OrderController {
 
-    //服务提供者的ip 写死的
-    //public static final String PAYMENT_URL = "http://localhost:8001";
     //集群环境下只写服务名称
     public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
