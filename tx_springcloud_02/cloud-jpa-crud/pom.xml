@@ -12,8 +12,7 @@
     <artifactId>cloud-jpa-crud</artifactId>
     <packaging>jar</packaging>
     <dependencies>
-
-        <!--引入自定义的api-->
+        <!--自定义api-->
         <dependency>
             <groupId>com.gaowz</groupId>
             <artifactId>cloud-api-commons</artifactId>
@@ -45,6 +44,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <!--热部署-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
         </dependency>
 
     </dependencies>

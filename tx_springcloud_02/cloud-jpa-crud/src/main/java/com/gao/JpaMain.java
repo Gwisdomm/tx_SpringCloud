@@ -5,14 +5,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @program: tx_springcloud_02
- * @description: jpa
+ * @description:
  * @author: gaowz
- * @create: 2020-12-11 14:20
+ * @create: 2020-12-17 13:45
  **/
 @SpringBootApplication
-public class JpaCrudMain {
+public class JpaMain {
 
     public static void main(String[] args) {
-        SpringApplication.run(JpaCrudMain.class,args);
+        SpringApplication.run(JpaMain.class,args);
     }
 }
