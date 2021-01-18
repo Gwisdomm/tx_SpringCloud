@@ -12,10 +12,10 @@ import org.springframework.web.client.RestTemplate;
  * @create: 2020-11-16 14:55
  **/
 @Configuration
-
 public class ApplicationContextConfig {
-    @Bean
+
     //负载均衡注解,轮询方式
+    @Bean
     @LoadBalanced
     public RestTemplate getRestTemplate(){
         return new RestTemplate();

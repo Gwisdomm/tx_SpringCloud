@@ -7,9 +7,17 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
 
+#Ribbon设置超时读取
 ribbon:
   #读取时间
   ReadTimeout:  5000
   #连接时间
   ConnectTimeout: 5000
+
+#OpenFeign日志增强
+logging:
+  level:
+    com.gao.service.PaymentFeignService: debug
+
+
 

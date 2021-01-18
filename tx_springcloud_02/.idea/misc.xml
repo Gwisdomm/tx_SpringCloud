@@ -6,6 +6,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-jpa-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-rocketmq-9000/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-rocketmq-consumer9100/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-rocketmq-consummer9001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-rocketmq-provider90002/pom.xml" />
       </list>
     </option>
   </component>
